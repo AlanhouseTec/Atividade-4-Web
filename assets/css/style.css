@@ -83,6 +83,9 @@ h1, h2, p, article{
 h1, h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.section-0{
+  width: 100%;
+}
 .section-1, .section-2, .section-3{
     width: 100%;
     display:flex;
