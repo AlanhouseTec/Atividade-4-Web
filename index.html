@@ -18,7 +18,7 @@
                     <li><a href="index.html">Início</a></li>
                     <li><a href="lore.html">Lore</a></li>
                     <li><a href="bosses.html">Chefes</a></li>
-                    <li><a href="maps.html">Builds e Dicas</a></li>
+                    <li><a href="maps.html">Mapas</a></li>
                 </ul>
             </nav>
     </header>
@@ -31,8 +31,7 @@
     </section>
     <main>
         
-        <section class="section-1"></section>
-        <section class="section-2">
+        <section class="section-1">
             <article>
                 <h2>A História de The Lands Between</h2>
                 <p>Descubra a rica história e o universo sombrio de Elden Ring, onde deuses caídos e heróis lutam pelo poder do Anel Prístino.</p>
@@ -55,9 +54,79 @@
                 <h3>Atualização 1.12 - Shadow of the Erdtree</h3>
                 <p>A atualizaçao Shadow of the Erdtree trouxe com sigo um novo Hype para o jogo de <strong>Elden Ring</strong> traz noovs bosses, novas armas, ajustes de balanceamento, e melhorias na qualidade de vida do jogo. Confira as notas completas do patch e prepare-se para novos desafios.</p>
                 <p>Nesta DLC tem se um destaque para o Radahn, que voltou muito mais forte com a ajuda de Marika. Talvez até mais forte que a Mallena "mas não deixa ela saber disso"</p>
+                <br>
             </article>
         </section> 
-    
+        <section class="section-2">
+            <form action="#" method="post">
+                <h3>Formulario</h3>
+                <label for="nickname">Seu Nick:</label>
+                <input type="text" id="nickname" name="nickname" required><br><br>
+
+                <label for="favorite-boss">Boss Favorito:</label>
+                <select id="favorite-boss" name="favorite-boss" required>
+                    <option value="Margit">Margit, o Presságio Caído</option>
+                    <option value="godrick">Godrick, o Enxertado</option>
+                    <option value="rennala">Rennala, Rainha da Lua Cheia</option>
+                    <option value="radahn">Radahn, o Flagelo Celeste</option>
+                    <option value="rykard">Rykard, Senhor da Blasfêmia</option>
+                    <option value="malenia">Malênia, a Espada de Miquella</option>
+                    <option value="morgott">Morgott, o Rei Omen</option>
+                    <option value="mohg">Mohg, Senhor do Sangue</option>
+                    <option value="maliketh">Maliketh, a Lâmina Negra</option>
+                    <option value="dupla-pele-divina">Dupla de pele divina</option>
+                    <option value="godfrey">Godfrey, o Primeiro Lorde Prístino</option>
+                    <option value="radagon">Radagon da Ordem Dourada</option>
+                    <option value="elden-beast">A Besta Elden</option>
+                </select><br><br>
+
+                <label for="favorite-map">Mapa Mais Impressionante:</label>
+                <select id="favorite-map" name="favorite-map" required>
+                    <option value="limgrave">Limgrave</option>
+                    <option value="liurnia">Liurnia dos Lagos</option>
+                    <option value="caelid">Caelid</option>
+                    <option value="montanha-dos-gigantes">Montanha dos Gigantes</option>
+                    <option value="siofra-nokron">Siofra River e Nokron, Cidade Eterna</option>
+                    <option value="profundezas-submundo">Profundezas do Submundo</option>
+                    <option value="haligtree">Haligtree de Miquella</option>
+                    <option value="farum-azula">Crumbling Farum Azula</option>
+                    <option value="leyndell">Leyndell, Capital Real</option>
+                </select><br><br>
+                
+                    <label>Nota ao Jogo:</label><br>
+                    <div class="nota">
+
+                        <div class="nota0">
+                            <input type="radio" id="rating-0" name="rating" value="0">
+                            <label for="rating-0">0</label><br>
+                        </div>
+                        <div class="nota1">
+                            <input type="radio" id="rating-1" name="rating" value="1">
+                            <label for="rating-1">1</label><br>
+                        </div>
+                        <div class="nota2">
+                            <input type="radio" id="rating-2" name="rating" value="2">
+                            <label for="rating-2">2</label><br>
+                        </div>
+                        <div class="nota3">
+                            <input type="radio" id="rating-3" name="rating" value="3">
+                            <label for="rating-3">3</label><br>
+                        </div>
+                        <div class="nota4">
+                            <input type="radio" id="rating-4" name="rating" value="4">
+                            <label for="rating-4">4</label><br>
+                        </div>
+                        <div class="nota5">
+                            <input type="radio" id="rating-5" name="rating" value="5">
+                            <label for="rating-5">5</label><br><br>
+                        </div>
+                </div>
+                <label for="comments">Fale sobre o jogo:</label><br>
+                <textarea id="comments" name="comments" rows="5" cols="33" placeholder="Compartilhe sua experiência em Elden Ring..."></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
     </main>
     <footer>
         <p>&copy; 2024 Elden Ring <b>Alan Lucas</b> Site. Todos os direitos reservados.</p>
